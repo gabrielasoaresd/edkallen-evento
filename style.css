@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: unset;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #8a83c7;
+}
+li{
+    display: inline;
+    float: right;
+}
+a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    background-color: unset;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+h2{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 428px;
+}
+.photo{
+    padding: 10px;
+    margin: 10px;
+    background-color: #8a83c7;
+    opacity: 0.8;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border: black solid 1px;
+    height:398px;
+    width: 270px;
+    position: relative;
+}
+.inf{
+    font-size: 1rem;
+    padding-top: 150px;
+    padding-left: 80px;
+    background-color: white;
+    color: black;
+    width: 500px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.artist{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.tour{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.places{
+    color: black;
+}
+.packs{
+    background-color: black;
+    text-align: center;
+}
+section{
+    color: white;
+    margin-top: 20px;
+}
+.namepacks{
+    font-size: 250%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height:250px;
+    background-color: black;
+}
+.item{
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: larger;
+    font-weight: bolder; 
+    color: black;
+}
+.linkingresso{
+    height: 15%;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    margin-left: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: unset;
+    margin: 0px;
+    padding: 10px;
+}
